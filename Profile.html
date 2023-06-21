@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Profile</title>
+</head>
+<body>
+  <div class="container">
+    <!-- start sidebar -->
+    <aside>
+      <h3>Elzero</h3>
+      <ul>
+        <li><a href="index.html"><i class="fa-regular fa-chart-bar fa-fw"></i><span>Dashboard</span></a></li>
+        <li><a href="Settings.html"><i class="fa-solid fa-gear fa-fw"></i><span>Settings</span></a></li>
+        <li><a class="active" href="Profile.html"><i class="fa-regular fa-user fa-fw"></i><span>Profile</span></a></li>
+        <li><a href="Projects.html"><i class="fa-solid fa-diagram-project fa-fw"></i><span>Projects</span></a></li>
+        <li><a href="Courses.html"><i class="fa-solid fa-graduation-cap fa-fw"></i><span>Courses</span></a></li>
+        <li><a href="Friends.html"><i class="fa-regular fa-circle-user fa-fw"></i><span>Friends</span></a></li>
+        <li><a href="Files.html"><i class="fa-regular fa-file fa-fw"></i><span>Files</span></a></li>
+        <li><a href="Plans.html"><i class="fa-regular fa-credit-card fa-fw"></i><span>Plans</span></a></li>
+      </ul>
+    </aside>
+    <!-- end sidebar -->
+    <section>
+    <nav class="padding">
+      <div class="search">
+        <input type="text" placeholder="Type A Keyword">
+      </div>
+      <div class="profile">
+        <i class="fa-regular fa-bell fa-lg"></i>
+        <img src="./img/avatar.png" alt="">
+      </div>
+    </nav>
+    <!-- end nav -->
+
+    <div id="profile" class="padding">
+      <h1 class="main-heading">Profile</h1>
+
+      <!-- profile -->
+      <div class="profile border">
+        <div class="name">
+          <img src="./img/avatar.png" alt="">
+          <h3>Osama Elzero</h3>
+          <p>Level 20</p>
+          <div class="level"></div>
+          <div class="rating">
+            <i class="fa-solid fa-star c-orange fs-13"></i>
+            <i class="fa-solid fa-star c-orange fs-13"></i>
+            <i class="fa-solid fa-star c-orange fs-13"></i>
+            <i class="fa-solid fa-star c-orange fs-13"></i>
+            <i class="fa-solid fa-star c-orange fs-13"></i>
+          </div>
+          <span>550 Rating</span>
+        </div>
+        <div class="information">
+          <div class="general">
+            <p>General Information</p>
+            <div class="text">
+              <p>Full Name: <span>Osama Mohamed</span></p>
+              <p>Gender: <span>Male</span></p>
+              <p>Country: <span>Egypt</span></p>
+            </div>
+            <div class="switch"><input type="checkbox" checked></div>
+          </div>
+          <div class="personal">
+            <p>Personal Information</p>
+            <div class="text">
+              <p>Email: <span>o@nn.sa</span></p>
+              <p>Phone: <span>019123456789</span></p>
+              <p>Date Of Birth: <span>25/10/1982</span></p>
+            </div>
+            <div class="switch"><input type="checkbox"></div>
+          </div>
+          <div class="job">
+            <p>Job Information</p>
+            <div class="text">
+              <p>Title: <span>Full Stack Developer</span></p>
+              <p>Programming Language: <span>Python</span></p>
+              <p>Years Of Experience: <span>15+</span></p>
+            </div>
+            <div class="switch"><input type="checkbox" checked></div>
+          </div>
+          <div class="billing">
+            <p>Billing Information</p>
+            <div class="text">
+              <p>Payment Method: <span>Paypal</span></p>
+              <p>Email: <span>email@website.com</span></p>
+              <p>Subscription: <span>Monthly</span></p>
+            </div>
+            <div class="switch"><input type="checkbox"></div>
+          </div>
+        </div>
+      </div>
+      <!-- profile -->
+
+      <div class="flex">
+        <!-- skills -->
+        <div class="skills padding border">
+          <h2>My Skills</h2>
+          <p>Complete Skills List</p>
+          <div><span>HTML</span> <span>Pugjs</span> <span>HAML</span></div>
+          <div><span>CSS</span> <span>SASS</span> <span>Stylus</span></div>
+          <div><span>JavaScript</span> <span>TypeScript</span></div>
+          <div><span>Vuejs</span> <span>Reactjs</span></div>
+          <div><span>Jest</span> <span>Jasmine</span></div>
+          <div><span>PHP</span> <span>Laravel</span></div>
+          <div><span>JavaScript</span> <span>Python</span></div>
+        </div>
+        <!-- skills -->
+
+        <!-- activities -->
+        <div class="activities padding border">
+          <h2>Latest Activities</h2>
+          <p>Latest Activities Done By The User</p>
+          <div class="content">
+            <img src="./img/activity-01.png">
+            <div>
+              <p>Store</p>
+              <span>Bought The Mastering Python Course</span>
+            </div>
+            <div class="text">
+              <p>18:10</p>
+              <span>Yesterday</span>
+            </div>
+          </div>
+          <div class="content">
+            <img src="./img/activity-02.png">
+            <div>
+              <p>Academy</p>
+              <span>Got The PHP Certificate</span>
+            </div>
+            <div class="text">
+              <p>16:05</p>
+              <span>Yesterday</span>
+            </div>
+          </div>
+          <div class="content">
+            <img src="./img/activity-03.png">
+            <div>
+              <p>Badges</p>
+              <span>Unlocked The 10 Skills Badge</span>
+            </div>
+            <div class="text">
+              <p>18:05</p>
+              <span>Yesterday</span>
+            </div>
+          </div>
+          <div class="content">
+            <img src="./img/activity-01.png">
+            <div>
+              <p>Store</p>
+              <span>Bought The Typescript Course</span>
+            </div>
+            <div class="text">
+              <p>12:05</p>
+              <span>Yesterday</span>
+            </div>
+          </div>
+        </div>
+        <!-- activities -->
+      </div>
+    </div>
+    </section>
+  </div>
+</body>
+</html>
